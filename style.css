@@ -129,8 +129,9 @@ main #s4 {
   gap: 40px;
 }
 main #s4 img {
-  width: 500px;
+  width: 300px;
   flex-grow: 1;
+  flex-shrink: 0;
   aspect-ratio: 3/2;
   -o-object-fit: cover;
      object-fit: cover;
