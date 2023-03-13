@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+*::-webkit-scrollbar {
+  width: 0;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #f5efe4;
+}
+
+nav {
+  width: 100vw;
+  height: 4rem;
+  background-color: #ededed;
+  border-bottom: 1px solid black;
+  position: fixed;
+  z-index: 10;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10vw;
+}
+nav #shopName {
+  font-size: 2rem;
+  font-weight: 800;
+}
+nav #rightTags a,
+nav #leftTags a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+main #s1 {
+  width: 100vw;
+  height: 100vh;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+main #s1 span {
+  width: 100%;
+  font-size: 2rem;
+  font-weight: 400;
+  text-align: center;
+  position: absolute;
+}
+main #s1 img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+main #s2 {
+  width: 100vw;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12rem 10vw;
+}
+main #s2 p {
+  width: 200px;
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 20px 0;
+  border-bottom: 1.6px solid black;
+}
+main #s3 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8rem 10vw;
+}
+main #s3 header {
+  padding: 1rem 0;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+main #s3 .itemContainer {
+  height: -moz-min-content;
+  height: min-content;
+  gap: 20px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+main #s3 .itemContainer .item {
+  width: 200px;
+  flex-grow: 1;
+  margin: 10px 0;
+}
+main #s3 .itemContainer .item img {
+  width: 100%;
+  aspect-ratio: 1/1;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border: 1px solid black;
+  border-radius: 5%;
+}
+main #s3 .itemContainer .item .itemDescribe {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 10px;
+}
+main #s3 .itemContainer .item .itemDescribe h1 {
+  font-size: 1.2rem;
+}
+main #s3 .itemContainer .item .itemDescribe span {
+  font-size: 1rem;
+  font-weight: 600;
+}
+main #s4 {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 6rem 10vw;
+  flex-wrap: wrap;
+  gap: 40px;
+}
+main #s4 img {
+  width: 500px;
+  flex-grow: 1;
+  aspect-ratio: 3/2;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 12px;
+}
+main #s4 div {
+  width: 400px;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 30px;
+  border-left: 4px solid rgb(123, 123, 123);
+}
+main #s4 div p {
+  font-size: 1rem;
+  font-weight: 300;
+}
+main #s4 div span {
+  font-size: 1.6rem;
+  font-weight: 800;
+}
+
+footer {
+  background-color: green;
+}/*# sourceMappingURL=style.css.map */
