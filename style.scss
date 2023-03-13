@@ -11,13 +11,13 @@ $nabbar: #ededed;
   }
 }
 body {
-  width: 100%;
+  width: 100vw;
   height: 100%;
   background-color: $primary;
 }
 
 nav {
-  width: 100vw;
+  width: 100%;
   height: 4rem;
   background-color: $nabbar;
   border-bottom: 1px solid black;
@@ -42,7 +42,7 @@ nav {
 }
 main {
   #s1 {
-    width: 100vw;
+    width: 100%;
     height: 100vh;
     position: relative;
     display: flex;
@@ -61,7 +61,7 @@ main {
     }
   }
   #s2 {
-    width: 100vw;
+    width: 100%;
     height: 300px;
     display: flex;
     justify-content: center;

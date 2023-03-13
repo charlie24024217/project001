@@ -9,13 +9,13 @@
 }
 
 body {
-  width: 100%;
+  width: 100vw;
   height: 100%;
   background-color: #f5efe4;
 }
 
 nav {
-  width: 100vw;
+  width: 100%;
   height: 4rem;
   background-color: #ededed;
   border-bottom: 1px solid black;
@@ -38,7 +38,7 @@ nav #leftTags a {
 }
 
 main #s1 {
-  width: 100vw;
+  width: 100%;
   height: 100vh;
   position: relative;
   display: flex;
@@ -58,7 +58,7 @@ main #s1 img {
      object-fit: cover;
 }
 main #s2 {
-  width: 100vw;
+  width: 100%;
   height: 300px;
   display: flex;
   justify-content: center;
