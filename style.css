@@ -29,6 +29,14 @@ nav {
 nav #shopName {
   font-size: 2rem;
   font-weight: 800;
+  margin: 0 10vw;
+}
+nav #rightTags,
+nav #leftTags {
+  width: 240px;
+  flex-shrink: 1;
+  display: flex;
+  justify-content: space-between;
 }
 nav #rightTags a,
 nav #leftTags a {
@@ -156,7 +164,86 @@ main #s4 div span {
   font-size: 1.6rem;
   font-weight: 800;
 }
+main #s5 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 8rem 10vw;
+}
+main #s5 header {
+  padding: 1rem 0;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+main #s5 .itemContainer {
+  width: 100%;
+  height: 60vmin;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 20px;
+  overflow: hidden;
+}
+main #s5 .itemContainer .item {
+  height: 30%;
+  flex-grow: 1;
+  flex-shrink: 1;
+  position: relative;
+  background-color: red;
+}
+main #s5 .itemContainer .item img {
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 100%;
+  height: 100%;
+}
+main #s5 .itemContainer .item::before {
+  content: "itemName";
+  color: aliceblue;
+  font-weight: 600;
+  position: absolute;
+  z-index: 2;
+  bottom: 10px;
+  left: 10px;
+}
+main #s5 .itemContainer .item:first-child {
+  height: 100%;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
 
 footer {
-  background-color: green;
+  width: 80vw;
+  height: 40vh;
+  display: flex;
+  justify-content: left;
+  margin: 0 10vw;
+  padding: 2rem 0;
+  gap: 40px;
+  border-top: 1px solid black;
+}
+footer ul {
+  font-size: 2rem;
+  font-weight: 800;
+  list-style: none;
+}
+footer ul li a {
+  font-size: 1rem;
+  text-decoration: none;
+  color: black;
+}
+
+#decr {
+  width: 100%;
+  height: 2rem;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 10vw;
+}
+#decr span {
+  display: inline-block;
+  font-size: 1rem;
+  color: #f5efe4;
 }/*# sourceMappingURL=style.css.map */
